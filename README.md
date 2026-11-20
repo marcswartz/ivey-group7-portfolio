@@ -28,4 +28,4 @@ Louis opens and Parum drives the three live demo steps. The rehearsal page also 
 3. Check the affected slide and its script. For a demo change, follow the corresponding speaker cues in the explorer.
 4. Commit the changed files and open a pull request against the original repository so the group can review them.
 
-The production site was first published through Vercel Drop. For a manual update, the Vercel project owner can deploy the revised site files to the existing `ivey-group7-portfolio` project. If the repository is connected to Vercel, merges to its configured production branch can publish updates automatically.
+Vercel watches `main` in this repository. When the group merges a change, Vercel deploys it to the same rehearsal link. Check the deployment on the merged commit before sharing the update.
