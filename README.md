@@ -29,3 +29,23 @@ Louis opens and Parum drives the three live demo steps. The rehearsal page also 
 4. Commit the changed files and open a pull request against the original repository so the group can review them.
 
 Vercel watches `main` in this repository. When the group merges a change, Vercel deploys it to the same rehearsal link. Check the deployment on the merged commit before sharing the update.
+
+## Slide-by-slide review
+
+November 20 group rehearsal. Each slide opens with its takeaway. The deck uses Arial on white, charcoal for text, gray for context and dark teal for emphasis. All 13 exported slides were opened and inspected. The chart labels and scales match the underlying figures, the text fits, and the PowerPoint notes match the rehearsal script. The proposed test on slide 12 remains the open research item.
+
+| Slide | Title | Evidence or speaking cue |
+| --- | --- | --- |
+| 1 | A Blue Owl investor has to piece together healthcare exposure. | Louis poses the opening question aloud. The slide names the fund. |
+| 2 | We traced 493 positions in one Blue Owl filing. | 493 is the count of investment positions as of September 30, 2026. One borrower can have more than one position. |
+| 3 | Two credit professionals described how they check and explain risk. | The two role descriptions paraphrase Group 7’s structured-credit interviews. Neither interviewee tested this explorer. |
+| 4 | We put the source beside each loan. | The larger Covetrus loan illustrates the link to the filing. Both Covetrus loans appear on page 16. |
+| 5 | We chose to help investors before they buy. | The comparison names the existing industry table, the withdrawal walkthrough and the holdings explorer. The choice turns on what investors can check before buying. |
+| 6 | Our first version left out loan sizes and due dates. | The added loan detail came from the team’s review. The example uses the $160 million second-lien loan due in October 2030. |
+| 7 | Three healthcare industries account for 26.4% of the fund. | The three selected filing categories add to 26.4% of fund investment fair value. Pharmaceuticals is a separate category. |
+| 8 | Blue Owl held two Covetrus loans worth $194 million together. | The two positions have fair values of $160 million and $33.623 million. Their $193.623 million total rounds to $194 million. |
+| 9 | The larger Covetrus loan comes due a year later and ranks second. | The first lien matures in October 2029. The larger, second-lien loan matures in October 2030. Priority refers to claims on pledged collateral. |
+| 10 | About 43% of provider debt comes due from October 2029 to September 2031. | 21 positions across the two-year window account for 42.56% of healthcare providers and services debt by fair value. That rounds to 43%. |
+| 11 | Investors can ask which borrowers may need to refinance. | Ken asks a question a fund manager could answer. The schedule gives contractual maturities. It cannot predict which borrowers will refinance. |
+| 12 | We still need to see whether advisers can verify exposure on their own. | The insurance task is a proposed comparison with the filing alone. It scores whether advisers can give a correct answer and show the source without help. |
+| 13 | Blue Owl should pilot the explorer with advisers using one filing. | Qail asks Blue Owl to run a one-filing pilot. Expansion depends on advisers giving more accurate, traceable answers. |
