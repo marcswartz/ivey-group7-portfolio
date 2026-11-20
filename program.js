@@ -102,7 +102,7 @@ window.rehearsalProgram = {
       "parts": [
         {
           "type": "cue",
-          "text": "Parum advances to slide 6. Keep the explorer ready in another tab on Industry exposure, with no industries added."
+          "text": "Parum shows slide 6. Jason points to the industry view, then to the loan detail the team added. Keep Industry exposure ready in the demo tab with no industries selected."
         },
         {
           "type": "say",

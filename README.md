@@ -32,7 +32,7 @@ Vercel watches `main` in this repository. When the group merges a change, Vercel
 
 ## Slide-by-slide review
 
-November 20 group rehearsal. Each slide opens with its takeaway. The deck uses Arial on white, charcoal for text, gray for context and dark teal for emphasis. All 13 exported slides were opened and inspected. The chart labels and scales match the underlying figures, the text fits, and the PowerPoint notes match the rehearsal script. The proposed test on slide 12 remains the open research item.
+November 20 group rehearsal. Group 7’s classroom presentation uses navy and sky blue, real views from the working prototype, and figures from the fund’s September 2026 filing. The Blue Owl wordmark identifies the company the project examines. The proposed adviser test is on slide 12. [Blue Owl](https://www.blueowl.com/)
 
 | Slide | Title | Evidence or speaking cue |
 | --- | --- | --- |
