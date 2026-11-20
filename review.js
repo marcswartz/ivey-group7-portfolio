@@ -7,6 +7,11 @@ const scripts = byId("segments");
 const speakerFilter = byId("speaker");
 const previous = byId("previous");
 const next = byId("next");
+const demoViews = new Map([
+  [7, { fragment: "healthcare", label: "Open healthcare breakdown" }],
+  [8, { fragment: "covetrus", label: "Open Covetrus loans" }],
+  [10, { fragment: "provider-maturities", label: "Open maturity schedule" }]
+]);
 let current = 0;
 
 function makeElement(tag, text, className) {
@@ -32,6 +37,13 @@ function showSlide(index) {
     if (i === index) button.setAttribute("aria-current", "step");
     else button.removeAttribute("aria-current");
   });
+  const activeItem = order.children[index];
+  if (activeItem && order.scrollHeight > order.clientHeight) {
+    const itemRect = activeItem.getBoundingClientRect();
+    const listRect = order.getBoundingClientRect();
+    if (itemRect.top < listRect.top) order.scrollTop += itemRect.top - listRect.top;
+    else if (itemRect.bottom > listRect.bottom) order.scrollTop += itemRect.bottom - listRect.bottom;
+  }
 }
 
 function filterScripts(name) {
@@ -72,6 +84,14 @@ function makeScriptSection(slide) {
   const view = makeElement("a", "View slide " + slide.slide, "view-link");
   view.href = "#slide-" + slide.slide;
   meta.append(makeElement("p", slide.speaker, "speaker"), makeElement("p", slide.start + "–" + slide.end, "time"), view);
+  const demoView = demoViews.get(slide.slide);
+  if (demoView) {
+    const demo = makeElement("a", demoView.label, "demo-link");
+    demo.href = "explorer.html#" + demoView.fragment;
+    demo.target = "_blank";
+    demo.rel = "noopener";
+    meta.append(demo);
+  }
 
   const copy = makeElement("div", "", "copy");
   const heading = makeElement("h3", slide.title);

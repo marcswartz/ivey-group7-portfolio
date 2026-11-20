@@ -1,8 +1,16 @@
 # Group 7 · Private credit portfolio explorer
 
-Our 10-minute Ivey Design-Driven Innovation presentation follows an investor from an industry’s share of Blue Owl Credit Income Corp. to the individual loans and their scheduled maturities.
+Our 13-slide, 10-minute Ivey Design-Driven Innovation presentation follows an investor from an industry’s share of Blue Owl Credit Income Corp. to the individual loans and their scheduled maturities.
 
 [Rehearsal page](https://ivey-group7-portfolio.vercel.app/) · [Interactive mockup](https://ivey-group7-portfolio.vercel.app/explorer.html) · [PowerPoint with speaker notes](https://ivey-group7-portfolio.vercel.app/presentation.pptx) · [Printable script](https://ivey-group7-portfolio.vercel.app/script.pdf)
+
+Louis opens and Parum drives the three live demo steps. The rehearsal page also links directly to each result.
+
+| Slide | Demo view |
+| --- | --- |
+| 7 | [Combine the three healthcare industries](https://ivey-group7-portfolio.vercel.app/explorer.html#healthcare) |
+| 8 | [Compare the two Covetrus loans](https://ivey-group7-portfolio.vercel.app/explorer.html#covetrus) |
+| 10 | [Inspect the healthcare-provider maturity schedule](https://ivey-group7-portfolio.vercel.app/explorer.html#provider-maturities) |
 
 ## Make an edit
 

@@ -1509,6 +1509,48 @@ function initializeCreditViews(schedule) {
     link.href = sourceUrl(item);
     link.textContent = 'Find position in the filing' + (item.page ? ' · p. ' + item.page : '');
   }
+  const providers = 'Healthcare providers and services';
+  function openDemoStop(fragment) {
+    switch (fragment) {
+      case '#healthcare':
+        byId('search').value = 'healthcare';
+        selected = sectorByName.get(providers);
+        combined.clear();
+        for (const name of [providers, 'Healthcare equipment and services', 'Healthcare technology']) {
+          combined.add(sectorByName.get(name));
+        }
+        render();
+        showView('industry');
+        byId('combine-title').scrollIntoView({block: 'start'});
+        break;
+      case '#covetrus':
+        byId('position-sort').selectedIndex = 0;
+        inspectIndustry(providers, null, 'Covetrus');
+        break;
+      case '#provider-maturities':
+        byId('ladder-sector').value = providers;
+        showView('maturities', true);
+        break;
+      case '':
+        byId('search').value = '';
+        byId('position-search').value = '';
+        byId('position-sector').value = '';
+        byId('position-sort').selectedIndex = 0;
+        byId('ladder-sector').value = '';
+        activePeriod = null;
+        activePosition = null;
+        pageIndex = 0;
+        expanded = false;
+        selected = ranked[0];
+        combined.clear();
+        render();
+        showView('industry');
+        window.scrollTo(0, 0);
+        break;
+    }
+  }
+  if (location.hash) openDemoStop(location.hash);
+  window.addEventListener('hashchange', () => openDemoStop(location.hash));
   byId('ladder-sector').addEventListener('change',renderLadder);
   function renderLadder() {
     const sector = byId('ladder-sector').value;
