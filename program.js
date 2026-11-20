@@ -9,11 +9,11 @@ window.rehearsalProgram = {
       "parts": [
         {
           "type": "cue",
-          "text": "Parum shows slide 1. Louis pauses after the opening question."
+          "text": "Ken starts the Zoom share on slide 1. Louis opens and pauses for a beat after his question."
         },
         {
           "type": "say",
-          "text": "Before you buy a share of this Blue Owl fund, how much healthcare exposure would you be adding? The fund lists what it owns. The catch is that healthcare appears under several headings. Which ones would you count? By the end, we’ll show you our answer and the loans behind it."
+          "text": "Say you already own a lot of healthcare stocks. Before you buy this Blue Owl fund, what would you want to know? For me, it’s how much more healthcare I’d be taking on. Look at the light blue blocks. Blue Owl reports them under three different industry names. Which ones count toward my answer?"
         }
       ]
     },
@@ -26,15 +26,15 @@ window.rehearsalProgram = {
       "parts": [
         {
           "type": "cue",
-          "text": "Parum advances to slide 2. Louis points out the reporting date."
+          "text": "On “We worked with one fund,” Ken advances to slide 2."
         },
         {
           "type": "say",
-          "text": "We worked with one fund, Blue Owl Credit Income Corp., or OCIC. It lends to businesses. In the filing for the quarter ended September 30, we traced 493 investment positions across 31 industries. The fund valued its investments at just over 35 billion US dollars. That gives us a specific date and a source to check. An investor can start with the whole fund and follow a number all the way back to one loan."
+          "text": "We worked with one fund, Blue Owl Credit Income Corp. It lends money to businesses. In its filing for the quarter ended September 30, 2026, it reported just over 35 billion US dollars in investments across 31 industries. Each dot here is one of the 493 positions we traced. See those two blue dots? They’re two loans to the same company. Peter will come back to them."
         },
         {
           "type": "handoff",
-          "text": "Charles, what stood out in the two interviews I did?"
+          "text": "Charles, what did we hear in the interviews that shaped this?"
         }
       ]
     },
@@ -47,11 +47,11 @@ window.rehearsalProgram = {
       "parts": [
         {
           "type": "cue",
-          "text": "Parum advances to slide 3. Charles paraphrases the interviews."
+          "text": "When Louis hands over to Charles, Ken shows slide 3."
         },
         {
           "type": "say",
-          "text": "The investor Louis spoke with had to explain credit risk to an investment committee and had limited time to read the agreements. The banking analyst had a different problem. Wording changed from borrower to borrower, so he checked summaries against the original loan documents. Both interviews were about loan protections in structured credit. We took those two needs into our work on OCIC. Whether this particular tool meets them is something we still have to test."
+          "text": "Louis spoke to two people who work in credit. The investor had to explain a loan’s risks to an investment committee, often with very little time to read the agreement. The banking analyst kept going back to the original documents because the wording changed from borrower to borrower. Those interviews were about loan protections in structured credit. When we looked at Blue Owl, we wanted the person using our tool to be able to explain an answer and check where it came from."
         }
       ]
     },
@@ -64,15 +64,15 @@ window.rehearsalProgram = {
       "parts": [
         {
           "type": "cue",
-          "text": "Parum advances to slide 4. Point to the link in the loan detail."
+          "text": "On “Here’s what that looks like,” Ken advances to slide 4. Leave the filing link visible."
         },
         {
           "type": "say",
-          "text": "We wanted someone to be able to ask, “Where did that number come from?” and get an answer right there. Each loan has a link to its entry in the filing. We also spell out what every percentage measures. A share of one industry and a share of the whole fund tell you quite different things. You’ll see that difference in the demo."
+          "text": "Here’s what that looks like. If I tell you a loan is half a percent, you’re probably going to ask, “Half a percent of what?” So the explorer says what the percentage measures. And if somebody across the table asks where we got it, the link on the right takes us to the filing. For Covetrus, both loans are on page 16."
         },
         {
           "type": "handoff",
-          "text": "Jason, why did we build this into a holdings tool?"
+          "text": "Jason, why did we build this around the decision to buy?"
         }
       ]
     },
@@ -85,11 +85,11 @@ window.rehearsalProgram = {
       "parts": [
         {
           "type": "cue",
-          "text": "Parum advances to slide 5."
+          "text": "As Charles names Jason, Ken shows slide 5."
         },
         {
           "type": "say",
-          "text": "We asked two questions as we chose a direction. Would it help someone decide whether to invest? Could we build it with information we could check? Blue Owl’s industry table is a good starting point, but a sector total doesn’t tell you who borrowed the money. We also built a withdrawal walkthrough. That answers a question people have after they buy. We chose the holdings explorer because it answers the earlier question and the figures are public."
+          "text": "We had a few options. The industry table already gives you a sector total, but you still have to find the borrowers yourself. We’d also built a walkthrough for withdrawals. That would help me get money out after I’d bought the fund. We wanted to help with the decision before that. The holdings explorer let us answer a question someone would ask before buying, using figures we could actually check."
         }
       ]
     },
@@ -102,15 +102,15 @@ window.rehearsalProgram = {
       "parts": [
         {
           "type": "cue",
-          "text": "Parum shows slide 6. Jason points to the industry view, then to the loan detail the team added. Keep Industry exposure ready in the demo tab with no industries selected."
+          "text": "On “The screen on the left,” Ken advances to slide 6. Keep this slide up through Jason’s handoff."
         },
         {
           "type": "say",
-          "text": "In our first version, you could pick an industry and see its weight and a few company names. During our own review, we tried asking how big a loan was and when it came due. The screen couldn’t tell us. We added a detail view for each position with its value, its place in the repayment order and its scheduled maturity."
+          "text": "The screen on the left was our starting point. It tells me healthcare providers make up 14.2% of the fund. When we tried it ourselves, we still couldn’t say how big an individual loan was or when it came due. That’s why we added the view on the right. Now I can see the amount, who gets paid first, and the due date for each loan."
         },
         {
           "type": "handoff",
-          "text": "Parum, can you show us how much healthcare you would count?"
+          "text": "Parum, if you were buying the fund, how much healthcare would you count?"
         }
       ]
     },
@@ -122,20 +122,36 @@ window.rehearsalProgram = {
       "end": "5:15",
       "parts": [
         {
+          "type": "say",
+          "text": "I’d count more than providers. Ken, can you bring up healthcare?"
+        },
+        {
           "type": "cue",
-          "text": "Parum switches from slide 6 to Industry exposure. Type healthcare in Find an industry. Click + beside providers and services, equipment and services, then healthcare technology. Pause on the total. Return to slide 7. If the demo stalls, use slide 7 for the figures."
+          "text": "On “bring up healthcare,” Ken switches from slide 6 to the explorer and types healthcare in Find an industry."
+        },
+        {
+          "type": "cue",
+          "text": "As Parum names each industry, Ken clicks its + in that order. After the third click, bring Combine industries into view and hold on 26.4%."
         },
         {
           "type": "say",
-          "text": "I’ll start by searching for healthcare. Here’s the first result I want, providers and services. I’ll add it. That’s 14.2% of the fund. Next I’ll add equipment and services at 6.6%, then healthcare technology at 5.6%. Give the total a look before we move on."
+          "text": "I’d start with providers and services. That’s 14.2%. Equipment and services adds 6.6%, which gets us to 20.8%. Then I’d include healthcare technology."
         },
         {
           "type": "say",
-          "text": "Those three categories add up to 26.4% of the fund’s investment fair value at the end of September. That’s how I get my answer to Louis’s opening question. I left pharmaceuticals out because the fund reports it separately. If my adviser wants it included, we can change the selection together. We both know exactly what went into the number."
+          "text": "There’s our total. It’s 26.4% of the fund’s investment fair value at the end of September. That’s a little over a quarter."
+        },
+        {
+          "type": "cue",
+          "text": "On “Here’s what I counted,” Ken returns to the deck and advances once to slide 7. Leave the explorer open with the three selections."
+        },
+        {
+          "type": "say",
+          "text": "Here’s what I counted. Blue Owl lists pharmaceuticals separately, so I left it out. Someone who wanted a broader definition could add it. At least now my adviser and I can see exactly what went into that number."
         },
         {
           "type": "handoff",
-          "text": "Peter, who’s behind the providers figure? I’ll keep driving."
+          "text": "Peter, who’s behind that providers number?"
         }
       ]
     },
@@ -147,12 +163,24 @@ window.rehearsalProgram = {
       "end": "6:00",
       "parts": [
         {
+          "type": "say",
+          "text": "Take Covetrus. It’s one of the companies in that providers group. Let’s look it up."
+        },
+        {
           "type": "cue",
-          "text": "Parum opens the Healthcare providers and services row, then Explore positions in this industry. Type Covetrus in Company or instrument. Show both rows, then click the smaller loan. Return to slide 8. If the demo stalls, show the two values on slide 8."
+          "text": "On “look it up,” Ken returns to the same explorer. Click the Healthcare providers and services row itself, then Explore positions in this industry. Type Covetrus in Company or instrument. Hold on both rows."
         },
         {
           "type": "say",
-          "text": "Covetrus shows up twice. Blue Owl valued one loan at 160 million dollars and the other at about 34 million. If you stop at the first row, you miss some of the exposure to this borrower. The two loans together were worth about 194 million dollars, or 0.55% of the fund’s total investment fair value. That’s what the fund said they were worth at quarter end."
+          "text": "See how the name shows up twice? Blue Owl valued the bigger loan at 160 million dollars. The smaller one is just under 34 million. If I only read the first row, I’d miss that second loan."
+        },
+        {
+          "type": "cue",
+          "text": "On “the smaller one,” Ken clicks the $33.623m first-lien row. On “Add them together,” return to the deck and advance once to slide 8."
+        },
+        {
+          "type": "say",
+          "text": "Add them together and it’s about 194 million dollars, or 0.55% of everything the fund held by fair value."
         }
       ]
     },
@@ -165,15 +193,15 @@ window.rehearsalProgram = {
       "parts": [
         {
           "type": "cue",
-          "text": "Parum advances to slide 9. Peter points to October 2029, then October 2030."
+          "text": "On Peter’s “Now look at the dates,” Ken advances to slide 9. Peter keeps speaking."
         },
         {
           "type": "say",
-          "text": "The smaller loan is due in October 2029. It has a first lien. The 160 million dollar loan comes due a year later, in October 2030. It has a second lien. If the lenders have to claim the pledged collateral, first-lien claims get paid ahead of the second lien. So most of Blue Owl’s exposure to Covetrus sits in the later loan, and that loan ranks behind the first lien. That’s a detail I’d want in front of me before talking to a committee."
+          "text": "Now look at the dates. The smaller loan at the top comes due in October 2029. The 160 million dollar loan underneath runs to October 2030. It also has a second lien. If the lenders have to claim the pledged collateral, the first lien gets paid ahead of it. So if I’m explaining this borrower to someone, the detail I’d lead with is that most of our exposure sits in the later loan, behind the first lien."
         },
         {
           "type": "handoff",
-          "text": "Ken, do the due dates cluster if we look beyond Covetrus?"
+          "text": "Ken, is that just Covetrus, or do a lot of the provider loans come due around the same time?"
         }
       ]
     },
@@ -185,12 +213,28 @@ window.rehearsalProgram = {
       "end": "7:43",
       "parts": [
         {
+          "type": "say",
+          "text": "Let’s look at the rest of the provider loans. I’ll pull up the maturity schedule."
+        },
+        {
           "type": "cue",
-          "text": "Parum switches from slide 9 to Debt maturities. Under Industry, select Healthcare providers and services. Click Oct 2029–Sep 2031 to show the 21 positions. Return to slide 10. If the demo stalls, point to that window on slide 10."
+          "text": "Ken now speaks and clicks. On “maturity schedule,” switch from slide 9 to the explorer. Open Debt maturities. Under Industry, select Healthcare providers and services. Hold on Oct 2029–Sep 2031."
         },
         {
           "type": "say",
-          "text": "Look at October 2029 through September 2031. We found 21 positions scheduled to come due in that window. At quarter end, they were worth about 2.1 billion dollars. That’s about 43% of the debt the fund held in healthcare providers and services, measured by fair value. We’ve changed the base here. Parum’s 26.4% used all the fund’s investments. This percentage uses only debt in this one industry."
+          "text": "This middle window runs from October 2029 through September 2031. It accounts for 42.56%, so roughly 43% of provider debt by fair value. Earlier, Parum’s 26.4% was a share of the whole fund. Here we’re looking at debt in this one industry."
+        },
+        {
+          "type": "cue",
+          "text": "After saying “this one industry,” Ken clicks the Oct 2029–Sep 2031 row. The chart changes to a list. Hold on its 21-position total."
+        },
+        {
+          "type": "say",
+          "text": "That’s 21 positions worth about 2.1 billion dollars at quarter end."
+        },
+        {
+          "type": "cue",
+          "text": "After “quarter end,” Ken returns to the deck and advances once to slide 10. Give the room a beat to read the blue bar."
         }
       ]
     },
@@ -203,15 +247,15 @@ window.rehearsalProgram = {
       "parts": [
         {
           "type": "cue",
-          "text": "Parum advances to slide 11. Leave time for the room to consider the question."
+          "text": "On “That gives me a question,” Ken advances to slide 11 and keeps speaking."
         },
         {
           "type": "say",
-          "text": "That gives me a question for the fund manager. Of the borrowers coming due in those two years, which are you watching most closely for refinancing, and why? A loan can be paid off early or refinanced. All the schedule gives me is the due date. If I want to know when I can withdraw my own money, I need to check the fund’s withdrawal terms separately."
+          "text": "That gives me a question for the fund manager. Worldwide Clinical Trials is the biggest position here, at about 359 million dollars. Which borrowers are you watching for refinancing, and why? They could repay early. And if I want to know when I can take my money out, that’s a separate question about the fund’s withdrawal terms."
         },
         {
           "type": "handoff",
-          "text": "Qail, how would we test whether an adviser can do this alone?"
+          "text": "Qail, how would we find out whether an adviser could do this without us?"
         }
       ]
     },
@@ -224,15 +268,15 @@ window.rehearsalProgram = {
       "parts": [
         {
           "type": "cue",
-          "text": "Parum advances to slide 12. Describe the proposed test. If the team runs it before class, use only the observations it actually records."
+          "text": "As Ken names Qail, Ken advances to slide 12 and stays on the Zoom share."
         },
         {
           "type": "say",
-          "text": "We’d give advisers the same task in a different industry, insurance. One group would have the filing. The other would have the explorer and its filing links. We’d ask each person to find insurance’s share of the fund, find the fund’s exposure to one insurance borrower, and show the entry that supports their answer. We’d score the first answer they give without help and record how long it takes."
+          "text": "I’d give advisers the same question we just worked through, but switch the industry to insurance. One group gets the filing. The other gets the explorer with the filing links. Can they tell us how much of the fund is in insurance, find the exposure to one borrower, and show where their answer came from? We’d record the first answer they give without help and how long it took."
         },
         {
           "type": "say",
-          "text": "We expect more advisers using the explorer to get the figures right and find the source. We haven’t run that test yet. If people give the right number but mistake what it measures, we’d rewrite the label and test it again."
+          "text": "We haven’t run that test yet. One thing I’d watch for is someone finding the right percentage but thinking it applies to the whole fund when it only applies to one industry. That would tell us exactly which label to change before trying again."
         }
       ]
     },
@@ -245,17 +289,65 @@ window.rehearsalProgram = {
       "parts": [
         {
           "type": "cue",
-          "text": "Parum advances to slide 13. Qail closes with the pilot request."
+          "text": "On Qail’s “We’d start with one fund,” Ken advances to slide 13. Hold the closing slide through the end."
         },
         {
           "type": "say",
-          "text": "We’d start with advisers who discuss OCIC with clients. Blue Owl’s investor relations team could check the figures against one quarterly filing. Advisers could then try the insurance task and tell us where they got stuck. We’d expand to another fund only if more advisers get the numbers right and can show where they came from. If the filing works just as well, we’d revise the explorer first."
+          "text": "We’d start with one fund and one filing. Blue Owl’s investor relations team could check the explorer against that quarter’s numbers. Then advisers could try the insurance question and show us where they got stuck. We’d move to a second fund only if more advisers get the answer right and can point to the source themselves. If the filing works just as well, we’d go back and change the explorer."
         },
         {
           "type": "say",
-          "text": "Our ask is for Blue Owl to run that pilot with its advisers, using one OCIC filing."
+          "text": "We’re asking Blue Owl to run that pilot with its advisers using one OCIC filing. Thanks."
         }
       ]
     }
-  ]
+  ],
+  "zoom": {
+    "setup": "Ken shares one display in Zoom for the entire talk. On that display, open the PowerPoint slide show and the live explorer in a browser. Start the explorer on Industry exposure with an empty search and no selected industries, then put slide 1 in front. Keep these cues on paper or a second device.",
+    "fallback": "If a demo screen stalls, Ken returns to the deck and shows slide 7, 8 or 10 for that result. The assigned speaker keeps talking. If they skip a live step, use the matching direct demo link for the next stop or finish with the slides.",
+    "run": [
+      {
+        "from": 1,
+        "to": 5,
+        "speaker": "Louis → Charles → Jason",
+        "when": "Open on 1. Advance on “We worked with one fund” (2), Louis handing to Charles (3), “Here’s what that looks like” (4), then Charles handing to Jason (5)."
+      },
+      {
+        "from": 6,
+        "to": 6,
+        "speaker": "Jason",
+        "when": "“The screen on the left” → show 6. Hold both screenshots until Jason asks Parum how much healthcare he would count."
+      },
+      {
+        "from": 7,
+        "to": 7,
+        "speaker": "Parum",
+        "when": "“Bring up healthcare” → explorer. Search healthcare. Click + as Parum names providers, equipment, then technology. Hold Combine industries at 26.4%. “Here’s what I counted” → return to deck, advance to 7."
+      },
+      {
+        "from": 8,
+        "to": 8,
+        "speaker": "Peter",
+        "when": "Parum asks “who’s behind that providers number?” Peter starts. “Look it up” → same explorer. Click the providers row, Explore positions in this industry, then search Covetrus. On “the smaller one,” select $33.623m. “Add them together” → return to deck, advance to 8."
+      },
+      {
+        "from": 9,
+        "to": 9,
+        "speaker": "Peter",
+        "when": "“Now look at the dates” → show 9. Peter stays on mic for both dates, then asks Ken whether more loans come due together."
+      },
+      {
+        "from": 10,
+        "to": 10,
+        "speaker": "Ken",
+        "when": "Take the mic. “Maturity schedule” → explorer, Debt maturities, Industry → Healthcare providers and services. Say 42.56% with the chart visible. After “this one industry,” click Oct 2029–Sep 2031. Show 21 positions. After “quarter end,” return to deck and advance to 10."
+      },
+      {
+        "from": 11,
+        "to": 13,
+        "speaker": "Ken → Qail",
+        "when": "“That gives me a question” → show 11. When you hand over to Qail, show 12. “We’d start with one fund” → show 13 and hold."
+      }
+    ]
+  }
 };

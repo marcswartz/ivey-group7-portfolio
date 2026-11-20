@@ -4,7 +4,7 @@ Our 13-slide, 10-minute Ivey Design-Driven Innovation presentation follows an in
 
 [Rehearsal page](https://ivey-group7-portfolio.vercel.app/) · [Interactive mockup](https://ivey-group7-portfolio.vercel.app/explorer.html) · [PowerPoint with speaker notes](https://ivey-group7-portfolio.vercel.app/presentation.pptx) · [Printable script](https://ivey-group7-portfolio.vercel.app/script.pdf)
 
-Louis opens and Parum drives the three live demo steps. The rehearsal page also links directly to each result.
+Louis opens. Ken shares one display in Zoom and controls every slide and demo click. Jason introduces the prototype on slide 6, Parum narrates slide 7, Peter speaks on slides 8 and 9, and Ken takes the mic on slide 10. Ken’s complete click sheet is on page 2 of the printable script. [Open Ken’s Zoom click sheet](https://ivey-group7-portfolio.vercel.app/#ken-click-sheet)
 
 | Slide | Demo view |
 | --- | --- |
@@ -32,7 +32,7 @@ Vercel watches `main` in this repository. When the group merges a change, Vercel
 
 ## Slide-by-slide review
 
-November 20 group rehearsal. Group 7’s classroom presentation uses navy and sky blue, real views from the working prototype, and figures from the fund’s September 2026 filing. The Blue Owl wordmark identifies the company the project examines. The proposed adviser test is on slide 12. [Blue Owl](https://www.blueowl.com/)
+November 20 group rehearsal. Group 7’s classroom presentation uses the explorer’s Inter typography and dark indigo demo screens, real views from the working prototype, and figures from the fund’s September 2026 filing. The Blue Owl wordmark identifies the company the project examines. The proposed adviser test is on slide 12. [Blue Owl](https://www.blueowl.com/)
 
 | Slide | Title | Evidence or speaking cue |
 | --- | --- | --- |

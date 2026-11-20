@@ -100,7 +100,7 @@ function makeScriptSection(slide) {
   for (const part of slide.parts) {
     const paragraph = makeElement("p", "", part.type);
     if (part.type === "cue" || part.type === "handoff") {
-      paragraph.append(makeElement("span", part.type === "handoff" ? "Handoff" : "Cue", "part-label"));
+      paragraph.append(makeElement("span", part.type === "handoff" ? "Handoff" : "Ken’s cue", "part-label"));
     }
     paragraph.append(document.createTextNode(part.text));
     copy.append(paragraph);
@@ -113,6 +113,18 @@ for (const [index, slide] of segments.entries()) {
   order.append(makeOrderItem(slide,index));
   scripts.append(makeScriptSection(slide));
 }
+const operatorGuide = window.rehearsalProgram.zoom;
+const operatorContent = byId("operator-content");
+operatorContent.append(makeElement("p", operatorGuide.setup));
+const cueList = makeElement("ol", "", "operator-list");
+for (const row of operatorGuide.run) {
+  const item = makeElement("li");
+  const reference = row.from === row.to ? "Slide " + row.from : "Slides " + row.from + "–" + row.to;
+  const time = segments[row.from - 1].start;
+  item.append(makeElement("strong", time + " · " + reference + " · " + row.speaker), makeElement("p", row.when));
+  cueList.append(item);
+}
+operatorContent.append(cueList, makeElement("p", operatorGuide.fallback));
 for (const speaker of new Set(segments.map(slide => slide.speaker))) {
   speakerFilter.add(new Option(speaker,speaker));
 }
@@ -140,6 +152,11 @@ byId("viewer").addEventListener("keydown", event => {
 });
 
 function followFragment(hash) {
+  if (hash === "#ken-click-sheet") {
+    byId("ken-click-sheet").open = true;
+    byId("ken-click-sheet").scrollIntoView({block:"start"});
+    return;
+  }
   if (hash.startsWith("#speaker-")) {
     const index = segments.findIndex(slide => "#speaker-" + speakerSlug(slide.speaker) === hash);
     if (index >= 0) {
