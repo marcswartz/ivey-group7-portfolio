@@ -1,4 +1,5 @@
 {
+  "trailingSlash": false,
   "rewrites": [
     { "source": "/explorer", "destination": "/explorer.html" }
   ]
